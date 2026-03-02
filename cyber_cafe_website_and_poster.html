@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhuwani Online Cyber Cafe</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: #1e40af;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #facc15;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 28px;
+            color: #1e3a8a;
+        }
+
+        .about p {
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            text-align: center;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .contact-box {
+            background: #1e3a8a;
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .contact-box p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .poster {
+            background: linear-gradient(135deg, #2563eb, #38bdf8);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 20px;
+            margin-top: 40px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        .poster h2 {
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+
+        .poster p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: white;
+            color: #1e3a8a;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #facc15;
+            color: black;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media(max-width:768px) {
+            header h1 {
+                font-size: 28px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bhuwani Online Cyber Cafe</h1>
+    <p>All Online Work & Government Services Available Here</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        हमारे साइबर कैफे में सभी प्रकार के ऑनलाइन फॉर्म, सरकारी योजनाएं, आधार / पैन सेवा,
+        प्रिंटिंग, स्कैनिंग, रिज्यूमे बनवाना और जॉब अप्लाई की सुविधा उपलब्ध है।
+        हम तेज़, सुरक्षित और भरोसेमंद सेवा प्रदान करते हैं।
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">Online Form Fill Up</div>
+        <div class="card">Aadhar / PAN Services</div>
+        <div class="card">Government Yojna Apply</div>
+        <div class="card">Print / Scan / Lamination</div>
+        <div class="card">Resume & Job Apply</div>
+        <div class="card">Railway / SSC / MPESB Form</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+        <p>📞 8815024386 / 8085464673</p>
+        <p>📍 Sadar Bazar</p>
+        <p>⏰ Open: 9:00 AM – 8:00 PM</p>
+    </div>
+</section>
+
+<section>
+    <div class="poster">
+        <h2>Cyber Cafe Special Offer</h2>
+        <p>All Government Forms Available Here</p>
+        <p>Fast Service | Trusted Work | Affordable Price</p>
+        <p>Contact Now: 8815024386</p>
+        <a href="#contact" class="btn">Call Now</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Bhuwani Online Cyber Cafe | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
